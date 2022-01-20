@@ -1,0 +1,49 @@
+.bg-container-login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.bg-card-login {
+  display: flex;
+  background-color: #202020;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 40%;
+}
+
+.website-logo {
+  background-color: transparent;
+  align-self: center;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  height: 30px;
+  margin-top: 5px;
+  color: #ffffff;
+  border-width: 1px;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #475569;
+}
+.login-btn {
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: #ffffff;
+  height: 35px;
+  border: none;
+}

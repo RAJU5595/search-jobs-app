@@ -1,0 +1,115 @@
+.jobs-bg-container {
+  display: flex;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-y: scroll;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-jobs-container {
+  padding: 0px;
+  list-style-type: none;
+}
+.loader {
+  color: aliceblue;
+}
+.profile-container {
+  height: 30vh;
+  width: 100;
+  padding: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+}
+
+.profile-name {
+  color: #6366f1;
+}
+.profile-bio {
+  color: #2c364c;
+}
+
+.side-bar-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 30px;
+}
+
+.employment-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.checkbox-field {
+  margin-right: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.hr-line {
+  border-style: solid;
+  border-color: #b6c5ff;
+  width: 100%;
+}
+.checkbox-field-salary {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.content-container {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-field {
+  background-color: transparent;
+  height: 35px;
+  flex-grow: 1;
+  color: #ffffff;
+  border: none;
+}
+
+.search-container {
+  display: flex;
+  padding: 10px;
+  color: #ffffff;
+  border-style: solid;
+  align-self: flex-start;
+  border-width: 1px;
+  border-color: #b6c5ff;
+  width: 35%;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+}
+.search-icon {
+  background-color: #202020;
+  cursor: pointer;
+  color: #ffffff;
+  width: 15%;
+  border: none;
+}

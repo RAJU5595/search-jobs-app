@@ -1,0 +1,74 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000000;
+}
+
+.bg-card-job-details {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #272727;
+  border-radius: 15px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-link {
+  cursor: pointer;
+}
+.company-logo {
+  width: 8%;
+  height: 9vh;
+  margin-right: 10px;
+}
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}
+.job-role-container {
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.life-at-company-container {
+  display: flex;
+}
+
+.similar-jobs-container {
+  display: flex;
+  padding: 0px;
+}
+
+.job-details-bg {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
